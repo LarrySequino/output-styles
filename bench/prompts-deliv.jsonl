@@ -1,0 +1,12 @@
+{"id":"x-launch","kind":"deliverable","q":"Write a Slack message announcing that the new billing dashboard is live."}
+{"id":"x-freeze","kind":"deliverable","q":"Write a message telling engineering there's a code freeze from the 20th through the 27th."}
+{"id":"x-hotfix","kind":"deliverable","q":"Write a git commit message for a hotfix that stops duplicate charges on retried payments."}
+{"id":"x-deprecate","kind":"deliverable","q":"Write the deprecation notice for a v1 API endpoint being removed in six months."}
+{"id":"x-welcome","kind":"deliverable","q":"Write the welcome email a new user gets after signing up for a project management tool."}
+{"id":"x-refund","kind":"deliverable","q":"Write a reply to a customer asking for a refund outside the refund window."}
+{"id":"x-onboard","kind":"deliverable","q":"Write the first-day checklist section of an onboarding doc for a new backend engineer."}
+{"id":"x-incident","kind":"deliverable","q":"Write the customer-facing incident note for 90 minutes of failed file uploads."}
+{"id":"x-survey","kind":"deliverable","q":"Write the intro paragraph for an annual engineering satisfaction survey."}
+{"id":"x-pto","kind":"deliverable","q":"Write a Slack message letting your team know you're out Thursday and Friday."}
+{"id":"x-changelog","kind":"deliverable","q":"Write release notes for a version that adds SSO and removes the legacy export button."}
+{"id":"x-escalate","kind":"deliverable","q":"Write an email escalating a blocked vendor integration to the vendor's account manager."}

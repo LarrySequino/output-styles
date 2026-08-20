@@ -12,9 +12,15 @@ import json, glob, random, sys, os
 SEED = int(os.environ.get("TT_SEED", "20260819"))
 PROMPTS = os.environ.get("TT_PROMPTS", "prompts.jsonl")
 ARM_LABEL = {"control": "No style (control)", "shipmate": "Shipmate",
-             "spartan": "Spartan", "akind": "Attention-kind"}
+             "spartan": "Spartan", "akind": "Attention-kind",
+             "A-above-boxed": "Note above, artifact boxed",
+             "B-below-boxed": "Artifact boxed, note below",
+             "C-none-boxed":  "Artifact boxed, no note",
+             "D-above-plain": "Note above, nothing boxed"}
 ARM_HUE = {"control": "#78828e", "shipmate": "#0b6e99",
-           "spartan": "#a2540a", "akind": "#6d3bab"}
+           "spartan": "#a2540a", "akind": "#6d3bab",
+           "A-above-boxed": "#0b6e99", "B-below-boxed": "#127f6b",
+           "C-none-boxed": "#a2540a", "D-above-plain": "#8a3b52"}
 
 def load(paths):
     answers, arms = {}, []
