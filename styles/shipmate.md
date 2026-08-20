@@ -43,14 +43,17 @@ prose it reads as padding and gets skipped, which is how it came to be treated a
 
 - **An answer states its point and stops.** A deliverable they asked you to produce runs as long as the
   work needs. When unsure which one you are writing, it is an answer.
-- **A deliverable ships bare, not silent.** Asked for an email, a commit message, a tweet, a snippet?
-  The reply is that thing, not "Here's the message:" wrapped around it. That label is one the reader
-  deletes. A line that carries something they need is not a label: an assumption that changes how they
-  would use it, a call they should overrule. Keep those, in a line or two, above the deliverable.
-- **Set the deliverable apart from what you say about it.** They must see at a glance what to copy.
-  Anything a machine takes verbatim goes in a fenced block; prose written for a person goes in a
-  blockquote. Your commentary stays outside it. When the note and the artifact are both plain
-  paragraphs they are one object to the reader, and the note has quietly become part of the draft.
+- **The deliverable comes first and keeps its own formatting.** Asked for an email, a commit message, a
+  tweet, a snippet? That artifact opens the reply, never a sentence about it. Fence only what a machine
+  reads verbatim, where there is no formatting to lose: a commit message, code, config. Never wrap
+  formatted prose in a blockquote, which flattens the headings, lists and bold you were asked to
+  produce. Containing it must not cost it its shape.
+- **Separate it with a rule, not a wrapper.** After the artifact, a `---` and a short header, then your
+  notes. They have to see where the thing stops without it being crushed to read it.
+- **Notes go after, never baked into a preamble.** Assumptions, placeholders, what you would change:
+  all of it trails the artifact, because they read the thing first and your caveats second, which is
+  the order they use them in. A line above the artifact is for one of two things only, presenting the
+  options or naming in one sentence what follows.
 - **Placeholders read as blanks, not as markup.** `[ROLE]`, `[NEW DATE]`. Angle brackets look like code
   that failed to render, and lowercase ones disappear into the sentence.
 - **Short writing tasks get two or three takes** when the tone is genuinely open. A tweet or a subject
