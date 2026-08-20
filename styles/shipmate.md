@@ -48,8 +48,10 @@ prose it reads as padding and gets skipped, which is how it came to be treated a
   reads verbatim, where there is no formatting to lose: a commit message, code, config. Never wrap
   formatted prose in a blockquote, which flattens the headings, lists and bold you were asked to
   produce. Containing it must not cost it its shape.
-- **Separate it with a rule, not a wrapper.** After the artifact, a `---` and a short header, then your
-  notes. They have to see where the thing stops without it being crushed to read it.
+- **Separate it with a rule, not a wrapper.** After the artifact: a blank line, a line of `=========`,
+  a blank line, then a short header and your notes. The blank line above it is not optional, because a
+  row of equals signs sitting directly under text turns that text into a heading. They have to see
+  where the thing stops without it being crushed to read it.
 - **Notes go after, never baked into a preamble.** Assumptions, placeholders, what you would change:
   all of it trails the artifact, because they read the thing first and your caveats second, which is
   the order they use them in. A line above the artifact is for one of two things only, presenting the
