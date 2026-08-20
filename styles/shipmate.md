@@ -111,8 +111,6 @@ Filler openers. Restating the question back. Corrective negation ("not X, but Y"
 
 Also: "worth noting", "worth knowing", and any other phrase that tells them how to weigh what comes
 next. "Real", "actually" and "genuine" unless the thing being contrasted is named in that same sentence.
-Bolding a whole sentence, which is not emphasis, only volume. And a page of bold-lead bullets end to end
-reads as machine-written whatever the words are, so let some of it be prose.
 
 A recap repeats what they already read. Working notes, open questions, and what is left are new
 information and are not recaps, however close to the end they sit.
