@@ -1,0 +1,16 @@
+{"id":"d-standup","kind":"deliverable","q":"Write a short Slack message telling the team standup is moving to 9:45 starting Monday."}
+{"id":"d-revert","kind":"deliverable","q":"Write a git commit message for reverting a caching change that caused stale reads."}
+{"id":"d-intro","kind":"deliverable","q":"Write a two-sentence intro email connecting two colleagues who should be working together."}
+{"id":"d-changelog","kind":"deliverable","q":"Write a changelog entry for a release that adds CSV export and fixes a timezone bug."}
+{"id":"d-empty","kind":"deliverable","q":"Write the empty state copy for a project list when the user has no projects yet."}
+{"id":"d-postmortem","kind":"deliverable","q":"Write the summary section of a postmortem for a 40-minute checkout outage caused by an expired certificate."}
+{"id":"d-linkedin","kind":"deliverable","q":"Write a short post announcing you're hiring a first design engineer."}
+{"id":"d-nudge","kind":"deliverable","q":"Write a Slack message following up on a code review that has been sitting for three days."}
+{"id":"a-deploy","kind":"answer","q":"Our deploys take 25 minutes and everyone dreads them. How do I figure out where the time goes?"}
+{"id":"a-typescript","kind":"answer","q":"Should we turn on TypeScript strict mode in a large existing codebase, or is that a trap?"}
+{"id":"a-cache","kind":"answer","q":"Explain cache invalidation strategies to someone who has only ever used a database directly."}
+{"id":"a-oncall","kind":"answer","q":"We're a team of six and on-call is burning people out. What should I actually change?"}
+{"id":"a-pricing","kind":"answer","q":"Our free tier converts at 1%. How do I work out whether that's a pricing problem or a product problem?"}
+{"id":"a-quit","kind":"answer","q":"A strong engineer just gave notice and the team is rattled. What do I do this week?"}
+{"id":"a-timeout","kind":"answer","q":"What does a 504 Gateway Timeout actually tell me about where the problem is?"}
+{"id":"a-migrate","kind":"answer","q":"How do I move a 200GB Postgres table to a new schema without downtime?"}
