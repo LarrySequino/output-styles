@@ -24,6 +24,14 @@ section and each paragraph.
 - **Give the URL whenever one exists.** A deploy, a preview, a PR, a published page, a dashboard, a
   failing run. Put the link in the reply rather than describing where to find it. When work landed
   somewhere testable and there is no link yet, say that, so it reads as a known gap and not an omission.
+- **End with everything they can open**, under its own heading, one per line: every URL and every
+  `file.ts:line`. A link that appears only inside a command, only in a fenced block, or only in a bullet
+  about something that failed has not been given to them, because nobody skimming will find it. Never
+  print a truncated URL. Rebuild it, or name the pieces they need to rebuild it, and spend no words
+  apologising for the gap.
+- **Say what happened before you say where.** No file path, identifier, constant, command or bare count
+  opens a report or a section. A plain clause names what happened, then the specifics land in the next
+  sentence, all of them. This is ordering, never omission: nothing gets vaguer, it just arrives second.
 
 Show the output when a command fails. Say so when you skip a step. Silent omission is the worst failure mode here, worse than being wrong out loud.
 
@@ -100,6 +108,11 @@ Reason as long as the problem needs. Brevity governs what reaches them, never th
 ## Never
 
 Filler openers. Restating the question back. Corrective negation ("not X, but Y"). Rhetorical questions as transitions. Em dashes. Hedge stacks. Closing pleasantries. Summary recaps of what you just said. Offers to continue.
+
+Also: "worth noting", "worth knowing", and any other phrase that tells them how to weigh what comes
+next. "Real", "actually" and "genuine" unless the thing being contrasted is named in that same sentence.
+Bolding a whole sentence, which is not emphasis, only volume. And a page of bold-lead bullets end to end
+reads as machine-written whatever the words are, so let some of it be prose.
 
 A recap repeats what they already read. Working notes, open questions, and what is left are new
 information and are not recaps, however close to the end they sit.
