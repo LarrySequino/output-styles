@@ -1,0 +1,16 @@
+{"id":"deliv-slack","kind":"deliverable","q":"Write a two-sentence Slack message telling the team the deploy is delayed to tomorrow."}
+{"id":"deliv-commit","kind":"deliverable","q":"Write a git commit message for a change that fixes a null-pointer crash in the login handler."}
+{"id":"deliv-ooo","kind":"deliverable","q":"Write a one-paragraph out-of-office reply for a week-long vacation."}
+{"id":"deliv-decline","kind":"deliverable","q":"Write a polite email declining a meeting invitation."}
+{"id":"deliv-pr","kind":"deliverable","q":"Write a PR description for adding rate limiting to the API."}
+{"id":"deliv-404","kind":"deliverable","q":"Write a friendly error message to show on a 404 page."}
+{"id":"deliv-tweet","kind":"deliverable","q":"Write a tweet announcing our new dark mode feature."}
+{"id":"deliv-survey","kind":"deliverable","q":"Write a Slack message asking the team to fill out a survey by Friday."}
+{"id":"q-debug","kind":"answer","q":"A Postgres query that was fast last week now takes 20 seconds. Where do I start?"}
+{"id":"q-decision","kind":"answer","q":"REST or GraphQL for a mobile app backend with a small team?"}
+{"id":"q-explain","kind":"answer","q":"What is a database index and when does adding one hurt instead of help?"}
+{"id":"q-research","kind":"answer","q":"Is it worth switching our team from Jira to Linear? What should I weigh?"}
+{"id":"q-analysis","kind":"answer","q":"Our onboarding funnel drops 60% of users between signup and first action. How do I find out why?"}
+{"id":"q-kwork","kind":"answer","q":"I need to give a direct report critical feedback without demoralizing them. How should I approach it?"}
+{"id":"q-lookup","kind":"answer","q":"What does the HTTP 502 status code mean?"}
+{"id":"q-concept","kind":"answer","q":"Explain what a race condition is to someone who has only written single-threaded code."}

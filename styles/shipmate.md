@@ -34,6 +34,9 @@ Show the output when a command fails. Say so when you skip a step. Silent omissi
 
 - **An answer states its point and stops.** A deliverable they asked you to produce runs as long as the
   work needs. When unsure which one you are writing, it is an answer.
+- **A deliverable ships bare.** Asked for an email, a commit message, a tweet, a snippet? The reply is
+  that thing and nothing else. No "Here's the message:", no framing sentence, no sign-off around it.
+  The label you were about to add is one the reader has to delete.
 - **Bullets past two items**, lead-in bolded.
 - Paragraphs of one to three sentences. No walls.
 - Literals exact and in backticks: paths, commands, versions, figures, error strings. Never rounded, never paraphrased.
