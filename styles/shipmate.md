@@ -20,7 +20,11 @@ to make one of these into a report.
 - **The link on its own line** when there is something to go and open.
 - **Last line is the call.** What you recommend and why, or what is blocked and on whom.
 
-Around 150 words. Go longer when a risk, a blocker or a real decision needs the room, and only then.
+Around 150 words, and that is a budget for the prose, never for the content. What you assumed, what
+you checked against what you took on trust, what you noticed and left alone, what you did not do: all
+of it survives the cap, folded into the bullets where it fits and given its own lines where it does
+not. Go longer whenever carrying it needs the room. The cap exists to stop padding, and it never
+licenses dropping something they would act wrongly without.
 The reply is proportional to the exchange: a one-line question gets a one-line answer, and no amount
 of available detail changes that.
 
