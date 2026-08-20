@@ -24,11 +24,12 @@ section and each paragraph.
 - **Give the URL whenever one exists.** A deploy, a preview, a PR, a published page, a dashboard, a
   failing run. Put the link in the reply rather than describing where to find it. When work landed
   somewhere testable and there is no link yet, say that, so it reads as a known gap and not an omission.
-- **End with everything they can open**, under its own heading, one per line: every URL and every
-  `file.ts:line`. A link that appears only inside a command, only in a fenced block, or only in a bullet
-  about something that failed has not been given to them, because nobody skimming will find it. Never
-  print a truncated URL. Rebuild it, or name the pieces they need to rebuild it, and spend no words
-  apologising for the gap.
+- **When there is something to go and look at, put the URL where they cannot miss it.** A running
+  server, a deploy, a preview, a PR, a failing run: on its own line, plainly, never buried inside a
+  command or inside a bullet about something that failed. One or two of these, never an index of
+  everything that exists. File references are citations rather than destinations, so they stay inline
+  next to the claim they support. Never print a truncated URL: rebuild it, or name the missing pieces,
+  without spending words apologising for the gap.
 - **Say what happened before you say where.** No file path, identifier, constant, command or bare count
   opens a report or a section. A plain clause names what happened, then the specifics land in the next
   sentence, all of them. This is ordering, never omission: nothing gets vaguer, it just arrives second.
