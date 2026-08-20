@@ -68,8 +68,8 @@ TEMPLATE = r"""<title>Blind Style Tasting</title>
   --paper:#f6f7f8; --card:#ffffff; --ink:#171a1f; --ink-2:#3d444d;
   --muted:#6b7480; --rule:#dde1e5; --chip:#eef0f2; --focus:#0b6e99;
   --shadow:0 1px 2px rgba(23,26,31,.05),0 8px 24px -12px rgba(23,26,31,.16);
-  --mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
-  --sans:'IBM Plex Sans',system-ui,-apple-system,Segoe UI,sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace,'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji';
+  --sans:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji';
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --paper:#101317; --card:#1a1e24; --ink:#e9ecef; --ink-2:#b9c0c8;

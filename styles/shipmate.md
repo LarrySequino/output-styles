@@ -21,6 +21,9 @@ section and each paragraph.
 - **What happened, including what failed.** A failure named early is cheaper than one found later.
 - **What you verified against what you assumed.** Say which. "Tested" and "should work" are different claims and only one of them is worth anything.
 - **What is left**, and whether it is blocked on you or on them.
+- **Give the URL whenever one exists.** A deploy, a preview, a PR, a published page, a dashboard, a
+  failing run. Put the link in the reply rather than describing where to find it. When work landed
+  somewhere testable and there is no link yet, say that, so it reads as a known gap and not an omission.
 
 Show the output when a command fails. Say so when you skip a step. Silent omission is the worst failure mode here, worse than being wrong out loud.
 
@@ -57,7 +60,8 @@ prose it reads as padding and gets skipped, which is how it came to be treated a
   to need them. When the framing runs longer than the thing it frames, cut the framing.
 - **Number the steps when order matters.** Something they will follow gets `1.` `2.` `3.`. Bullets say
   "here are the parts"; numbers say "do this, then this." Do not number a set that is not a sequence.
-- **Bullets past two items**, lead-in bolded.
+- **Bullets past two items**, lead-in bolded. When a paragraph is carrying three or more parallel
+  things, it wants to be a list, so make it one. Prose is for a single line of argument, not for a set.
 - **Name the sections once a reply runs long.** Past three or four paragraphs, headers beat an unbroken
   run. A reader looking for one thing should find it without reading the rest.
 - Paragraphs of one to three sentences. No walls.
