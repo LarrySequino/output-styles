@@ -1,0 +1,16 @@
+{"id":"d-outage","kind":"deliverable","q":"Write a Slack message telling customers-facing teams that search is degraded and we're working on it."}
+{"id":"d-bump","kind":"deliverable","q":"Write a git commit message for upgrading the Postgres driver from 3.1 to 4.0."}
+{"id":"d-thanks","kind":"deliverable","q":"Write a two-sentence thank-you note to someone who covered your on-call shift."}
+{"id":"d-tooltip","kind":"deliverable","q":"Write tooltip copy explaining what a project's 'archive' action does."}
+{"id":"d-agenda","kind":"deliverable","q":"Write the agenda for a 30-minute meeting to decide our mobile release cadence."}
+{"id":"d-rejection","kind":"deliverable","q":"Write an email letting a candidate know they didn't get the role after a final round."}
+{"id":"d-readme","kind":"deliverable","q":"Write the opening section of a README for an internal CLI that seeds test data."}
+{"id":"d-status","kind":"deliverable","q":"Write a one-paragraph status update for leadership on a migration that's two weeks behind."}
+{"id":"a-flaky","kind":"answer","q":"Our test suite fails randomly about one run in five. How do I track that down?"}
+{"id":"a-monorepo","kind":"answer","q":"We're at 40 engineers and CI takes 30 minutes. Do we split the monorepo or fix CI?"}
+{"id":"a-idempotent","kind":"answer","q":"Explain idempotency to someone who's only written simple CRUD endpoints."}
+{"id":"a-hiring","kind":"answer","q":"I have budget for one hire: a senior generalist or two juniors. How should I think about it?"}
+{"id":"a-metrics","kind":"answer","q":"Leadership wants a single number for engineering productivity. How do I handle that?"}
+{"id":"a-refactor","kind":"answer","q":"There's a module everyone is scared to touch. How do I make it safe to change?"}
+{"id":"a-cors","kind":"answer","q":"What is a CORS preflight failure actually telling me?"}
+{"id":"a-scaling","kind":"answer","q":"Our API is fine at p50 but p99 is 4 seconds. Where do I look first?"}

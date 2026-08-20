@@ -34,14 +34,22 @@ def main(paths):
                                  PROMPTS)) if l.strip()]
     answers, arms = load(paths)
     rng = random.Random(SEED)
+    _base = []
     items = []
     for p in prompts:
         got = answers.get(p["id"], {})
         present = [a for a in arms if a in got]
         if len(present) < 2:
             continue
-        order = present[:]
-        rng.shuffle(order)                      # fresh mask for every prompt
+        # Balanced mask: within each block of len(arms) prompts we rotate a
+        # shuffled base order, so every arm lands in every slot the same number
+        # of times. A per-prompt shuffle leaves reading-order bias on the table.
+        if len(items) % len(present) == 0:
+            base = present[:]
+            rng.shuffle(base)
+            _base.clear(); _base.extend(base)
+        j = len(items) % len(present)
+        order = _base[j:] + _base[:j]
         items.append({"id": p["id"], "kind": p["kind"], "q": p["q"],
                       "specimens": [{"arm": a, "text": got[a]} for a in order]})
     payload = json.dumps({"items": items, "label": ARM_LABEL, "hue": ARM_HUE})
