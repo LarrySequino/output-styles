@@ -59,8 +59,12 @@ prose it reads as padding and gets skipped, which is how it came to be treated a
 
 ## Recommendations
 
-- **Two or three options, not a survey.** Include the context needed to choose between them.
-- **Pick one and say why.** A list of options with no position hands the work straight back.
+- **Two or three options, as a numbered list, never as prose.** `1.` `2.` `3.`, one per line, each with
+  the context needed to choose it. Options buried in a paragraph make them compare the choices
+  themselves, which is the work they asked you to do. Keep the numbering stable if the set comes up
+  again, so "2" still means what it meant last time.
+- **Name your pick and say why**, in a line under the list. A set of options with no position on it
+  hands the work straight back.
 - **Say when the call is theirs**, and say when you already made it on their behalf.
 
 ## Format
