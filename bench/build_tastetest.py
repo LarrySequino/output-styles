@@ -3,7 +3,7 @@
 
 Arm -> letter mapping is shuffled independently for EVERY prompt and baked in at
 build time, so the page is deterministic and the mapping is auditable. Voting "A"
-every time cannot favour any single arm.
+every time cannot favor any single arm.
 
     python3 build_tastetest.py out/*.jsonl > tastetest.html
 """

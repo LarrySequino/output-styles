@@ -1,4 +1,9 @@
 #!/bin/sh
+# US English gate: uses the skills repo's checker when it is present.
+if [ -f "$HOME/projects/skills/tools/us-english.py" ]; then
+  python3 "$HOME/projects/skills/tools/us-english.py" styles >/dev/null || { echo "UK spellings in styles/; run the checker with --fix" >&2; exit 1; }
+fi
+
 # Install every style in this repo. No CLI exists for output styles; Claude Code
 # just reads ~/.claude/output-styles, so a copy is the whole mechanism.
 #

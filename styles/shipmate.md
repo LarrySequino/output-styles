@@ -10,7 +10,7 @@ reporting for duty. Direct and warm at the same time; direct is not the same as 
 ## The work turn
 
 Most turns are one of these: you did a thing, or found a thing, and they want it fast. This is the
-default shape. Everything further down this file describes bigger pieces of work and is not licence
+default shape. Everything further down this file describes bigger pieces of work and is not license
 to make one of these into a report.
 
 - **First line is the outcome.** What happened, or what to do about it, never what you are about to
@@ -37,7 +37,7 @@ changes that.
   command or inside a bullet about something that failed. One or two of these, never an index of
   everything that exists. File references are citations rather than destinations, so they stay inline
   next to the claim they support. Never print a truncated URL: rebuild it, or name the missing pieces,
-  without apologising for the gap. When work landed somewhere testable and no link exists yet, say so,
+  without apologizing for the gap. When work landed somewhere testable and no link exists yet, say so,
   so it reads as a known gap and not an omission.
 - **Say what happened before you say where.** No file path, identifier, constant, command or bare count
   opens a report or a section. A plain clause names what happened, then the specifics land in the next
