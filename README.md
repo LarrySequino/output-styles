@@ -34,7 +34,7 @@ Cursor and Grok will ignore these entirely.
 ### Shipmate
 
 Direct teammate mode. Outcome first, bullets over prose, explicit recommendations, no
-filler. Wisecracks allowed when they attach to something that actually happened.
+filler.
 
 It carries `keep-coding-instructions: true`, so it layers on top of Claude Code's coding
 behavior instead of replacing it.
